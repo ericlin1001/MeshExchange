@@ -1,0 +1,76 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MPIHelper	MPIHelper.h	/^		MPIHelper(int &argc,char ** &argv){$/;"	f	class:MPIHelper	access:public	signature:(int &argc,char ** &argv)
+MPIHelper	MPIHelper.h	/^class MPIHelper{$/;"	c
+MPIHelper::MPIHelper	MPIHelper.h	/^		MPIHelper(int &argc,char ** &argv){$/;"	f	class:MPIHelper	access:public	signature:(int &argc,char ** &argv)
+MPIHelper::arecv	MPIHelper.h	/^		MPI_Request arecv(int &buf,int src,int tag=TAG2){$/;"	f	class:MPIHelper	access:public	signature:(int &buf,int src,int tag=TAG2)
+MPIHelper::asend	MPIHelper.h	/^		MPI_Request asend(int buf,int dest,int tag=TAG2){$/;"	f	class:MPIHelper	access:public	signature:(int buf,int dest,int tag=TAG2)
+MPIHelper::getID	MPIHelper.h	/^		int getID()const{return id;}$/;"	f	class:MPIHelper	access:public	signature:() const
+MPIHelper::getName	MPIHelper.h	/^		const char *getName()const{$/;"	f	class:MPIHelper	access:public	signature:() const
+MPIHelper::getNumProcesses	MPIHelper.h	/^		int getNumProcesses()const{return numProcess;}$/;"	f	class:MPIHelper	access:public	signature:() const
+MPIHelper::getRequest	MPIHelper.h	/^		MPI_Request getRequest()const{return request;}$/;"	f	class:MPIHelper	access:public	signature:() const
+MPIHelper::getStatus	MPIHelper.h	/^		MPI_Status getStatus()const{return status;}$/;"	f	class:MPIHelper	access:public	signature:() const
+MPIHelper::id	MPIHelper.h	/^	int id;$/;"	m	class:MPIHelper	access:private
+MPIHelper::isMaster	MPIHelper.h	/^		bool isMaster()const{return id==0;}$/;"	f	class:MPIHelper	access:public	signature:() const
+MPIHelper::name	MPIHelper.h	/^	char name[100];$/;"	m	class:MPIHelper	access:private
+MPIHelper::name	MPIHelper.h	/^	char name[MPI_MAX_PROCESSOR_NAME];$/;"	m	class:MPIHelper	access:private
+MPIHelper::numProcess	MPIHelper.h	/^	int numProcess;$/;"	m	class:MPIHelper	access:private
+MPIHelper::recv	MPIHelper.h	/^		void recv(double &buf,int src,int tag=TAG4){$/;"	f	class:MPIHelper	access:public	signature:(double &buf,int src,int tag=TAG4)
+MPIHelper::recv	MPIHelper.h	/^		void recv(double *buf,int count,int src,int tag=TAG){$/;"	f	class:MPIHelper	access:public	signature:(double *buf,int count,int src,int tag=TAG)
+MPIHelper::recv	MPIHelper.h	/^		void recv(int &buf,int src,int tag=TAG2){$/;"	f	class:MPIHelper	access:public	signature:(int &buf,int src,int tag=TAG2)
+MPIHelper::recv	MPIHelper.h	/^		void recv(int *buf,int count,int src,int tag=TAG1){$/;"	f	class:MPIHelper	access:public	signature:(int *buf,int count,int src,int tag=TAG1)
+MPIHelper::request	MPIHelper.h	/^	MPI_Request request;$/;"	m	class:MPIHelper	access:private
+MPIHelper::send	MPIHelper.h	/^		void send(double *buf,int count,int dest,int tag=TAG){$/;"	f	class:MPIHelper	access:public	signature:(double *buf,int count,int dest,int tag=TAG)
+MPIHelper::send	MPIHelper.h	/^		void send(double buf,int dest,int tag=TAG4){$/;"	f	class:MPIHelper	access:public	signature:(double buf,int dest,int tag=TAG4)
+MPIHelper::send	MPIHelper.h	/^		void send(int *buf,int count,int dest,int tag=TAG1){$/;"	f	class:MPIHelper	access:public	signature:(int *buf,int count,int dest,int tag=TAG1)
+MPIHelper::send	MPIHelper.h	/^		void send(int buf,int dest,int tag=TAG2){$/;"	f	class:MPIHelper	access:public	signature:(int buf,int dest,int tag=TAG2)
+MPIHelper::status	MPIHelper.h	/^	MPI_Status status;$/;"	m	class:MPIHelper	access:private
+MPIHelper::test	MPIHelper.h	/^		void test($/;"	f	class:MPIHelper	access:public	signature:( )
+MPIHelper::~MPIHelper	MPIHelper.h	/^		~MPIHelper(){$/;"	f	class:MPIHelper	access:public	signature:()
+MPI_HELPER_H	MPIHelper.h	5;"	d
+OMPI_IMPORTS	MPIHelper.h	9;"	d
+TAG	MPIHelper.h	16;"	d
+TAG1	MPIHelper.h	17;"	d
+TAG2	MPIHelper.h	18;"	d
+TAG3	MPIHelper.h	19;"	d
+TAG4	MPIHelper.h	20;"	d
+TAG5	MPIHelper.h	21;"	d
+TAG6	MPIHelper.h	22;"	d
+TAG_ARR_DOUBLE	MPIHelper.h	26;"	d
+TAG_ARR_INT	MPIHelper.h	27;"	d
+TAG_DOUBLE	MPIHelper.h	25;"	d
+TAG_INT	MPIHelper.h	24;"	d
+arecv	MPIHelper.h	/^		MPI_Request arecv(int &buf,int src,int tag=TAG2){$/;"	f	class:MPIHelper	access:public	signature:(int &buf,int src,int tag=TAG2)
+asend	MPIHelper.h	/^		MPI_Request asend(int buf,int dest,int tag=TAG2){$/;"	f	class:MPIHelper	access:public	signature:(int buf,int dest,int tag=TAG2)
+cl	makefile	/^cl=mpic++.mpich$/;"	m
+exe	makefile	/^exe=mpirun.mpich$/;"	m
+file	makefile	/^file=main.cpp$/;"	m
+getID	MPIHelper.h	/^		int getID()const{return id;}$/;"	f	class:MPIHelper	access:public	signature:() const
+getName	MPIHelper.h	/^		const char *getName()const{$/;"	f	class:MPIHelper	access:public	signature:() const
+getNumProcesses	MPIHelper.h	/^		int getNumProcesses()const{return numProcess;}$/;"	f	class:MPIHelper	access:public	signature:() const
+getRequest	MPIHelper.h	/^		MPI_Request getRequest()const{return request;}$/;"	f	class:MPIHelper	access:public	signature:() const
+getStatus	MPIHelper.h	/^		MPI_Status getStatus()const{return status;}$/;"	f	class:MPIHelper	access:public	signature:() const
+id	MPIHelper.h	/^	int id;$/;"	m	class:MPIHelper	access:private
+isMaster	MPIHelper.h	/^		bool isMaster()const{return id==0;}$/;"	f	class:MPIHelper	access:public	signature:() const
+main	main.cpp	/^int main(int argc,char **argv){$/;"	f	signature:(int argc,char **argv)
+name	MPIHelper.h	/^	char name[100];$/;"	m	class:MPIHelper	access:private
+name	MPIHelper.h	/^	char name[MPI_MAX_PROCESSOR_NAME];$/;"	m	class:MPIHelper	access:private
+numProcess	MPIHelper.h	/^	int numProcess;$/;"	m	class:MPIHelper	access:private
+out	makefile	/^out=main$/;"	m
+printArr	main.cpp	/^void printArr(const vector<T>&arr){$/;"	f	signature:(const vector<T>&arr)
+recv	MPIHelper.h	/^		void recv(double &buf,int src,int tag=TAG4){$/;"	f	class:MPIHelper	access:public	signature:(double &buf,int src,int tag=TAG4)
+recv	MPIHelper.h	/^		void recv(double *buf,int count,int src,int tag=TAG){$/;"	f	class:MPIHelper	access:public	signature:(double *buf,int count,int src,int tag=TAG)
+recv	MPIHelper.h	/^		void recv(int &buf,int src,int tag=TAG2){$/;"	f	class:MPIHelper	access:public	signature:(int &buf,int src,int tag=TAG2)
+recv	MPIHelper.h	/^		void recv(int *buf,int count,int src,int tag=TAG1){$/;"	f	class:MPIHelper	access:public	signature:(int *buf,int count,int src,int tag=TAG1)
+request	MPIHelper.h	/^	MPI_Request request;$/;"	m	class:MPIHelper	access:private
+send	MPIHelper.h	/^		void send(double *buf,int count,int dest,int tag=TAG){$/;"	f	class:MPIHelper	access:public	signature:(double *buf,int count,int dest,int tag=TAG)
+send	MPIHelper.h	/^		void send(double buf,int dest,int tag=TAG4){$/;"	f	class:MPIHelper	access:public	signature:(double buf,int dest,int tag=TAG4)
+send	MPIHelper.h	/^		void send(int *buf,int count,int dest,int tag=TAG1){$/;"	f	class:MPIHelper	access:public	signature:(int *buf,int count,int dest,int tag=TAG1)
+send	MPIHelper.h	/^		void send(int buf,int dest,int tag=TAG2){$/;"	f	class:MPIHelper	access:public	signature:(int buf,int dest,int tag=TAG2)
+status	MPIHelper.h	/^	MPI_Status status;$/;"	m	class:MPIHelper	access:private
+test	MPIHelper.h	/^		void test($/;"	f	class:MPIHelper	access:public	signature:( )
+~MPIHelper	MPIHelper.h	/^		~MPIHelper(){$/;"	f	class:MPIHelper	access:public	signature:()
